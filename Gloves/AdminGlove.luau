@@ -7,7 +7,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Credits to Nexer1234_AnotherAlt",
 	Text = "Made by @nexer1234 ( youtube & discord )",
     Icon = "rbxassetid://125704683916878",
-	Duration = 36000
+	Duration = 10
 })
 
 if getgenv().AutoGetAdminExecuted == true then return end
