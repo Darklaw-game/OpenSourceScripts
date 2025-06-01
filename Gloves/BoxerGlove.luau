@@ -6,15 +6,10 @@ end
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Credits to Nexer1234_AnotherAlt",
 	Text = "Made by @nexer1234 ( youtube & discord )",
-    Icon = "rbxassetid://125704683916878",
-	Duration = 36000
+        Icon = "rbxassetid://125704683916878",
+	Duration = 36000,
+	Button1 = "Thanks!"
 })
-
-if getgenv().AutoGetBoxerExecuted == true then return end
-
-if getgenv or getgenv() then
-getgenv().AutoGetBoxerExecuted = true
-end
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Message from Nexer1234_AnotherAlt",
@@ -27,14 +22,10 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 if game.PlaceId == 7234087065 then
 
-if workspace:FindFirstChild("BoxingGloves") == nil then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Buildings.house.TP.CFrame * CFrame.new(0,10,0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4231.26123046875, 3510.86376953125, 270.4519958496094)
 repeat task.wait(.1) until workspace:FindFirstChild("BoxingGloves")
-task.wait(.5)
+task.wait(1)
 fireclickdetector(workspace.BoxingGloves.ClickDetector)
-else
-fireclickdetector(workspace.BoxingGloves.ClickDetector)
-end
   
 elseif game.PlaceId == 11520107397 or game.PlaceId == 9015014224 or game.PlaceId == 6403373529 or game.PlaceId == 124596094333302 then
   
